@@ -48,7 +48,7 @@ function App() {
       ) : null}
 
       {showModal ? (
-        <Modal handleClose={() => handleClose(false)}>
+        <Modal handleClose={() => handleClose(false)} isSalesModal={true}>
           <h2>100% Off Coupon Code!</h2>
           <p>Use the code NINJA10 at the checkout</p>
         </Modal>

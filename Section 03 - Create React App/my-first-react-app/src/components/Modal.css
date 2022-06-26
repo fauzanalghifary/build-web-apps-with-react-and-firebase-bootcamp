@@ -13,3 +13,13 @@
   background: #fff;
   border-radius: 10px;
 }
+
+.modal h2 {
+}
+
+.modal .sales-btn {
+  border: 4px solid #333;
+  font-size: 18px;
+  text-transform: uppercase;
+  display: inline-block;
+}
